@@ -1,8 +1,6 @@
-version: '3.8'
-
 services:
   check-qb:
-    image: unraiders/check-qb:1.0.0
+    image: unraiders/check-qb
     container_name: check-qb
     restart: unless-stopped
     volumes:
