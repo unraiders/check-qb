@@ -1,10 +1,8 @@
 services:
   check-qb:
-    image: unraiders/check-qb
+    build: unraiders/check-qb
     container_name: check-qb
     restart: unless-stopped
-    volumes:
-      - ./config:/app/config
     environment:
       - TZ=Europe/Madrid
     env_file:
