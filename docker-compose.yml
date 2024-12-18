@@ -1,6 +1,6 @@
 services:
   check-qb:
-    build: unraiders/check-qb
+    image: unraiders/check-qb
     container_name: check-qb
     restart: unless-stopped
     environment:
